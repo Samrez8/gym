@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samrez Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    body {
+        font-family: 'Balsamiq Sans', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('bg.jpg');
+
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        border: 2px solid rgb(223, 12, 12);
+    }
+
+    .left img {
+        width: 80px;
+        background-color: none;
+        margin: 10px;
+
+
+    }
+
+    .left div {
+        font-family: 'Balsamiq Sans', sans-serif;
+        line-height: 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .mid {
+        display: block;
+        width: 60%;
+        margin: 15px auto;
+        border: 2px solid rgb(38, 221, 14);
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        border: 2px solid rgb(212, 199, 10);
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 15px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        font-family: 'Balsamiq Sans', sans-serif;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(139, 139, 139);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 145px 700px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 15px;
+    }
+
+    .form.group input {
+        font-family: 'Balsamiq Sans', sans-serif;
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 5px auto;
+        font-size: 15px;
+        border-radius: 8px;
+    }
+    .container h1{
+        text-align: center;
+        
+    }
+    .container button{
+        display: block;
+        width: 23%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="gym1.png" alt="">
+            <div>Samrez Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Bhiwandi</h1>
+        <form action="noaction.php">
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+        </form>
+        <form action="noaction.php">
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+        </form>
+        <form action="noaction.php">
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+        </form>
+        <form action="noaction.php">
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
